@@ -1,0 +1,16 @@
+title: 美食日記
+author: 美食日記
+description: 記錄每天的美味，從台南開始。
+lang: zh-TW
+theme: minima
+permalink: /:categories/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+minima:
+  skin: classic
+  social_links:
+    - { platform: github,  user_url: "https://github.com/" }
+timezone: Asia/Taipei
+markdown: kramdown
+highlighter: rouge
